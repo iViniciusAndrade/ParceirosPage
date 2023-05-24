@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+body, footer {
+   background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2, #content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 {
+	box-shadow:inset 0px -50px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:3px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btn1:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.btn1:active {
+	position:relative;
+	top:1px;
+}
+
+#contentdiv {
+    border-radius: 12px;
+    background-color: black;
+    width: 40%;
+    color: white;
+    align-content: center;
+    border: 20px;
+    padding: 40px;
+    background-color: #4d3534;
+    color: rgb(255, 255, 255);
+}
+
+#numero{
+    width: 50px;
+}
+
+#cep {
+    width: 80px;
+}
+
+#tel, #cidade {
+    width:115px
+}
+#estabelecimento-nome {
+    width: 250px;
+}
+
+#estado {
+    width:40px
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode h2 {
+    color: #fff;
+  }
+  
+  .dark-mode h4 {
+    color: #ddd;
+  }
+
+  

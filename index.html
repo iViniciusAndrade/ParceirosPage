@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parceiros</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+    <H2>Torne-se nosso Parceiro</H2>
+    <h4>Junte-se a nós e faça parte da nossa rede de entrega confiável. Como parceiro, você terá acesso a uma base de clientes em expansão e poderá expandir seu alcance no mercado. Aproveite essa oportunidade para aumentar seus negócios e oferecer um serviço de entrega rápido e conveniente aos seus clientes.</h4>
+  
+    <br/>
+  <div id="content">
+    <div id="contentdiv">
+  
+    <form action="./index.html">
+      <label for="text">Nome do Estabelecimento</label> 
+      <input style="display:flex ;" id="estabelecimento-nome" type="text" name="Nome do Estabelecimento" placeholder="Nome da sua empresa">
+    <br/>
+
+    <label for="number">CNPJ</label>
+      <input style="display: block;" id="cnpj" type="number" name="cnpj" placeholder="Pode ser CPF também" >
+      <br/>
+
+      <label for="number">CEP</label>
+      <input style="display:inline-block;" id="cep" type="number" name="cep">
+      <br/>
+
+      <label for="text">Endereço</label>
+      <input style="display: inline;" id="endereco" type="tex" name="Endereco" placeholder="Rua, Avenida, Rodovia..."> <label for="number">Número </label><input style="display: inline;" id="numero" type="number" name="numero"><label for="number"> S/N</label><input style="display: inline" type="checkbox" name="sn" id="sn">
+      <br/>
+
+      <label for="text">Bairro</label>
+      <input style="display: inline-block;" id="bairro" type="text" name="bairro" >
+
+      <label for="text">Cidade</label>
+      <input style="display: inline-block;" id="cidade" type="text" name="cidade"> 
+
+      <label for="text">Estado</label>
+      <input style="display: inline-block;" id="estado" type="text" name="estado"> 
+
+    <br/>
+      
+      <label for="text">Complemento</label>
+      <input style="display:inline-block;" id="complemento" type="text" name="complemento" placeholder="Ponto de Referência">
+
+    <br/><br/>
+      <label for="number">Telefone:</label>
+      <input style="display:block" id="tel" type="number" placeholder="Fixo ou Celular" name="tel">
+<br/>
+      <label for="file">Logo do Estabelecimento</label>
+      <input style="display: block;" id="logo" type="file" name="logo">
+
+      <label for="file">Cardápio</label>
+      <input style="display:block;" id="cardapio" type="file" name="cardapio">
+
+
+      <label for="number">E-mail</label>
+      <input style="display: block;" id="email" type="email" name="email" placeholder="Insira um E-mail Válido" >
+    </form>
+<br/>
+    <button id="btn1" class="btn1" onclick="btn1()">Enviar</button>
+
+    </div>
+  </div>
+
+  
+
+  <script src="./script.js"></script>
+</body>
+</html>
